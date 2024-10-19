@@ -7,12 +7,9 @@
     "build": "netlify-build",
     "start": "netlify dev"
   },
-  "author": "Jopio",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "mysql2": "^2.3.3"  // Use the latest version number from npm
-  },
-  "devDependencies": {
-    // Add any development dependencies here, if needed
+    "mysql2": "^2.3.3"
   }
 }

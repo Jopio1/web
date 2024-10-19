@@ -1,3 +1,8 @@
+// In your get_code.php file, before outputting any content:
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST');
+header('Access-Control-Allow-Headers: Content-Type');
+
 const mysql = require('mysql2/promise');
 
 exports.handler = async (event) => {
